@@ -1,0 +1,39 @@
+.min{
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../oneimg.jpg");
+
+}
+.pic{
+    
+}
+.intro-text{
+    width: 100%;
+    text-align: center;
+}
+.title{
+    font-size: 95px;
+}
+
+.buttonContainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.landingbutton{
+    width: 200px;
+    height: 55px;
+}
+
+@media only screen and(min-width:1200px){
+    .buttonContainer{
+        padding: 0 200px;
+    }
+    .title{
+        padding: 0 100px;
+    }
+}
